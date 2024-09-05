@@ -1,0 +1,119 @@
+<div class="outer">
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+        <div class="panel border bg-white">
+          <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold">Login</h3>
+          </div>
+
+          <div class="panel-body p-3">
+            <form #loginForm="ngForm" (ngSubmit)="onSubmitLogin(loginForm)">
+              <!-- Username Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-user p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_loginObj.username"
+                         name="username"
+                         #username="ngModel"
+                         required
+                         minlength="3"
+                         placeholder="Username"
+                         class="form-control" />
+                </div>
+                <div *ngIf="username.invalid && username.touched" class="text-danger">
+                  <div *ngIf="username.errors?.['required']">Username is required.</div>
+                  <div *ngIf="username.errors?.['minlength']">Username must be at least 3 characters long.</div>
+                </div>
+              </div>
+
+              <!-- Password Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-lock p-2"></span>
+                  <input [type]="type"
+                         [(ngModel)]="account_loginObj.password"
+                         name="password"
+                         #password="ngModel"
+                         required
+                         minlength="6"
+                         placeholder="Password"
+                         class="form-control" />
+                  <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
+                </div>
+                <div *ngIf="password.invalid && password.touched" class="text-danger">
+                  <div *ngIf="password.errors?.['required']">Password is required.</div>
+                  <div *ngIf="password.errors?.['minlength']">Password must be at least 6 characters long.</div>
+                </div>
+              </div>
+
+              <!-- Remember Me -->
+              <div class="form-group pt-3">
+                <label>
+                  Remember Me
+                  <input type="checkbox" [(ngModel)]="account_loginObj.rememberMe" name="rememberMe" />
+
+                </label>
+              </div>
+
+              <!-- Forget Password Link -->
+              <div class="form-inline fr mt-4">
+                <a id="forget" class="font-weight-bold" (click)="openModalForgotPass()">Forget Password?</a>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block mt-4 w-100" [disabled]="loginForm.invalid">
+                Login
+              </button>
+
+              <div class="text-center pt-4 text-muted">
+                Don't have an account? <a id="forget" routerLink="/Signup">Sign up</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Forget Password -->
+<div class="modal fade" id="forgotModal" tabindex="-1" aria-labelledby="forgotModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgotModalLabel">Forget your password?</h5>
+        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form #forGotForm="ngForm" (ngSubmit)="onSubmitForgot(forGotForm)">
+          <!-- Email Input -->
+          <div class="form-group pt-3">
+            <small>Please provide your Email we will send the reset link</small>
+            <div class="input-field">
+              <span class="fa fa-envelope p-2"></span>
+              <input type="text"
+                     [(ngModel)]="forgotObj.email"
+                     name="email"
+                     
+                     required
+                     
+                    (ngModelChange)="checkValidEmail($event)"
+                     placeholder="Email"
+                     class="form-control" />
+            </div>
+            
+             <div *ngIf="!forgotObj.email" class="text-danger">Email is required.</div>
+             <div *ngIf="!isValidEmail && forgotObj.email" class="text-danger">Enter a valid email address.</div>
+            
+          </div>
+          <div class="modal-footer">
+            <button id="closeBtn" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="submit" class="btn btn-primary"  >Gửi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

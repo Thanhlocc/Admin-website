@@ -1,0 +1,225 @@
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">Product</h1>
+  <!-- Nút để mở modal thêm nhà cung cấp -->
+  <button class="btn btn-primary" (click)="openModalSupplier()">Thêm mới nhà cung cấp</button>
+  <!-- Nút để mở modal thêm danh mục -->
+  <button class="btn btn-primary" (click)="openModalCate()">Thêm mới danh mục</button>
+  <button class="btn btn-primary" (click)="openSettingsModal()">Thêm sản phẩm</button>
+</div>
+
+<div class="row mb-4">
+  <div class="col-md-12">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Recent Orders</h5>
+        <div class="table-responsive">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Sale Price</th>
+                <th>Image</th>
+                <th>Description</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of products">
+                <td>{{ product.product_id }}</td>
+                <td>{{ product.product_name }}</td>
+                <td>{{ product.product_inventory }}</td>
+                <td>{{ product.product_saleprice }}</td>
+                <td><img [src]="product.productImage" alt="Product Image" style="width: 50px; height: 50px;"></td>
+                <td>{{ product.product_description }}</td>
+                <td>
+                  <button type="button" class="btn btn-sm btn-outline-warning mx-1" (click)="openModalPutProduct(product.product_id)">Sửa</button>
+                  <button type="button" class="btn btn-sm btn-outline-danger mx-1" (click)="deleteProduct(product.product_id)">Xóa</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Settings Modal -->
+<div class="modal fade" id="settingsModal" tabindex="-1" aria-labelledby="settingsModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="settingsModalLabel">Thêm sản phẩm</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Add Product Form -->
+        <form #productForm="ngForm" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label for="productName" class="form-label">Tên sản phẩm</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_name" name="productName" required>
+          </div>
+          <div class="mb-3">
+            <label for="productQuantity" class="form-label">Số lượng</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_inventory" name="productQuantity" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Danh mục</label>
+            <select class="form-control" name="type_name" [(ngModel)]="productObj.type_id" required>
+              <option value="0">-- Chọn danh mục --</option>
+              <option *ngFor="let producttype of producttypes" [value]="producttype.type_id">{{ producttype.type_name }}</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nhà cung cấp</label>
+            <select class="form-control" name="supplier_name" [(ngModel)]="productObj.supplier_id" required>
+              <option value="0">-- Chọn nhà cung cấp --</option>
+              <option *ngFor="let supplier of suppliers" [value]="supplier.supplier_id">{{ supplier.supplier_name }}</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="purchasePrice" class="form-label">Giá nhập</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_inprice" name="purchasePrice" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellingPrice" class="form-label">Giá bán</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_saleprice" name="sellingPrice" ngModel required>
+          </div>
+          <div class="mb-3">
+            <label for="productImage" class="form-label">Hình sản phẩm</label>
+            <input type="file" class="form-control" name="productImage" (change)="onFileChange($event)">
+          </div>
+          <img *ngIf="imagePreviewUrl" [src]="imagePreviewUrl" alt="Product Image Preview" style="width: 150px; height: 150px; margin-top: 10px;">
+          <div class="mb-3">
+            <label for="productDescription" class="form-label">Mô tả sản phẩm</label>
+            <textarea class="form-control" id="productDescription" name="productDescription" [(ngModel)]="productObj.product_description" rows="3" required></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="submit" class="btn btn-primary" (click)="onSubmit()">Lưu thay đổi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Thêm Nhà Cung Cấp -->
+<div class="modal fade" id="supplierModal" tabindex="-1" aria-labelledby="supplierModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="supplierModalLabel">Thêm mới nhà cung cấp</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="supplierName" class="form-label">Tên nhà cung cấp</label>
+            <input type="text" class="form-control" [(ngModel)]="supplierObj.supplier_name" name="supplier_name">
+
+          </div>
+          <div class="mb-3">
+            <label for="supplierContact" class="form-label">Nhà cung cấp hiện đang có</label>
+            <ul style="padding-left: 20px;" *ngFor="let supplier of suppliers">
+              <li>{{ supplier.supplier_name }}</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="submit" class="btn btn-primary" (click)="onSubmitSupplier()">Lưu thay đổi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Thêm Danh Mục -->
+<div class="modal fade" id="categoryModal" tabindex="-1" aria-labelledby="categoryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="categoryModalLabel">Thêm mới danh mục</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="categoryName" class="form-label">Tên danh mục</label>
+            <input type="text" class="form-control" [(ngModel)]="product_typeObj.type_name" name="categoryName" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Danh mục sản phẩm hiện đang có</label>
+            <ul style="padding-left: 20px;" *ngFor="let producttype of producttypes">
+              <li>{{ producttype.type_name }}</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="submit" class="btn btn-primary" (click)="onSubmitCate()">Lưu thay đổi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Sửa sản phẩm -->
+<div class="modal fade" id="putProductModal" tabindex="-1" aria-labelledby="putProductModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="putProductModalLabel">Thêm mới danh mục</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form #productForm="ngForm" enctype="multipart/form-data">
+          <div class="mb-3">
+            <label for="productName" class="form-label">Tên sản phẩm</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_name" name="productName" required>
+          </div>
+          <div class="mb-3">
+            <label for="productQuantity" class="form-label">Số lượng</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_inventory" name="productQuantity" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Danh mục</label>
+            <select class="form-control" name="type_name" [(ngModel)]="productObj.type_id" required>
+              <option value="0">-- Chọn danh mục --</option>
+              <option *ngFor="let producttype of producttypes" [value]="producttype.type_id">{{ producttype.type_name }}</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Nhà cung cấp</label>
+            <select class="form-control" name="supplier_name" [(ngModel)]="productObj.supplier_id" required>
+              <option value="0">-- Chọn nhà cung cấp --</option>
+              <option *ngFor="let supplier of suppliers" [value]="supplier.supplier_id"  >{{ supplier.supplier_name }}</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="purchasePrice" class="form-label">Giá nhập</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_inprice" name="purchasePrice" required>
+          </div>
+          <div class="mb-3">
+            <label for="sellingPrice" class="form-label">Giá bán</label>
+            <input type="text" class="form-control" [(ngModel)]="productObj.product_saleprice" name="sellingPrice" ngModel required>
+          </div>
+          <div class="mb-3">
+            <label for="productImage" class="form-label">Hình sản phẩm</label>
+            <input type="file" class="form-control" name="productImage" (change)="onFileChange($event)">
+          </div>
+          <img *ngIf="imagePreviewUrl" [src]="imagePreviewUrl" alt="Product Image Preview" style="width: 150px; height: 150px; margin-top: 10px;">
+          <div class="mb-3">
+            <label for="productDescription" class="form-label">Mô tả sản phẩm</label>
+            <textarea class="form-control" id="productDescription" name="productDescription" [(ngModel)]="productObj.product_description" rows="3" required></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+            <button type="submit" class="btn btn-primary" (click)="onSubmitPutProduct()">Lưu thay đổi</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
