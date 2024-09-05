@@ -1,0 +1,22 @@
+<ng-container *ngIf="fullName === undefined">
+  <router-outlet></router-outlet> <!-- Chỉ hiển thị login -->
+</ng-container>
+
+<ng-container *ngIf="role === 'client'">
+  <app-navbar></app-navbar>
+  <div class="container-fluid">
+    <div class="row">
+
+      <app-sidebar class="col-auto" [class.sidebar-collapsed]="isSidebarClosed" (toggle)="handleSidebarToggle($event)"></app-sidebar>
+
+      <main class="col" [class.main-expanded]="isSidebarClosed">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+  </div>
+</ng-container>
+<ng-toast [width]="350" [position]="ToasterPosition.TOP_RIGHT" />
+
+
+
+

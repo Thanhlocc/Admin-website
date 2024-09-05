@@ -1,0 +1,131 @@
+<div class="outer">
+  <div class="container">
+    <div class="row">
+      <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
+        <div class="panel border bg-white">
+          <div class="panel-heading">
+            <h3 class="pt-3 font-weight-bold">Sign Up</h3>
+          </div>
+
+          <div class="panel-body p-3">
+            <form #signUpForm="ngForm" (ngSubmit)="onSubmitSignUp(signUpForm)">
+
+              <!-- FirstName Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-user p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_signUpObj.firstName"
+                         name="firstName"
+                         #firstName="ngModel"
+                         required
+                         placeholder="FirstName"
+                         class="form-control" />
+                </div>
+                <div *ngIf="firstName.invalid && firstName.touched" class="text-danger">
+                  <div *ngIf="firstName.errors?.['required']">FirstName is required.</div>
+                </div>
+              </div>
+
+              <!-- LastName Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-user p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_signUpObj.lastName"
+                         name="lastName"
+                         #lastName="ngModel"
+                         required
+                         placeholder="LastName"
+                         class="form-control" />
+                </div>
+                <div *ngIf="lastName.invalid && lastName.touched" class="text-danger">
+                  <div *ngIf="lastName.errors?.['required']">LastName is required.</div>
+                </div>
+              </div>
+
+              <!-- Email Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-envelope p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_signUpObj.email"
+                         name="email"
+                         #email="ngModel"
+                         required
+                         email
+                         placeholder="Email"
+                         class="form-control" />
+                </div>
+                <div *ngIf="email.invalid && email.touched" class="text-danger">
+                  <div *ngIf="email.errors?.['required']">Email is required.</div>
+                  <div *ngIf="email.errors?.['email']">Enter a valid email address.</div>
+                </div>
+              </div>
+
+              <!-- Address Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-home p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_signUpObj.address"
+                         name="address"
+                         placeholder="Address"
+                         class="form-control" />
+                </div>
+              </div>
+
+              <!-- Username Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-user p-2"></span>
+                  <input type="text"
+                         [(ngModel)]="account_signUpObj.username"
+                         name="username"
+                         #username="ngModel"
+                         required
+                         placeholder="Username"
+                         class="form-control" />
+                </div>
+                <div *ngIf="username.invalid && username.touched" class="text-danger">
+                  <div *ngIf="username.errors?.['required']">Username is required.</div>
+                </div>
+              </div>
+
+              <!-- Password Input -->
+              <div class="form-group pt-3">
+                <div class="input-field">
+                  <span class="fa fa-lock p-2"></span>
+                  <input [type]="type"
+                         [(ngModel)]="account_signUpObj.password"
+                         name="password"
+                         #password="ngModel"
+                         required
+                         minlength="6"
+                         placeholder="Password"
+                         class="form-control" />
+                  <span (click)="hideShowPass()" class="fa {{eyeIcon}}"></span>
+                </div>
+                <div *ngIf="password.invalid && password.touched" class="text-danger">
+                  <div *ngIf="password.errors?.['required']">Password is required.</div>
+                  <div *ngIf="password.errors?.['minlength']">Password must be at least 6 characters long.</div>
+                </div>
+              </div>
+
+              
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-block mt-4 w-100" [disabled]="signUpForm.invalid">
+                Sign Up
+              </button>
+
+              <div class="text-center pt-4 text-muted">Q
+                Already have an account? <a id="forget" routerLink="/Login">Login</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

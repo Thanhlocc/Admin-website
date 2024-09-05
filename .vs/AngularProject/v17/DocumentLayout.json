@@ -1,0 +1,782 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\AngularProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\login\\login.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\interceptors\\token.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\interceptors\\token.interceptor.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\guards\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\guards\\auth.guard.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\product\\product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\product\\product.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\order\\order.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\order\\order.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\signup\\signup.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\signup\\signup.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\helpers\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\helpers\\emailbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\services\\user.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\signup\\signup.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\signup\\signup.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\models\\reset-password.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\models\\reset-password.model.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\utilityservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\utilityservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\utilityservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\utilityservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\services\\auth.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\login\\login.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\navbar\\navbar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\app\\services\\product.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\app\\services\\product.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0C9DEC50-E12C-4DB7-9298-DD5B4660D397}|angularproject.client\\angularproject.client.esproj|solutionrelative:angularproject.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\migrations\\20240824080151_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\migrations\\20240824080151_secondmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\migrations\\20240824075133_revert_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\migrations\\20240824075133_revert_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|c:\\users\\pc\\source\\repos\\angularproject\\angularproject.server\\migrations\\20240824050846_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5104F0-4F92-4AF1-B8D9-A6A6B9EBB8CA}|AngularProject.Server\\AngularProject.Server.csproj|solutionrelative:angularproject.server\\migrations\\20240824050846_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "product.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\product\\product.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\product\\product.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\product\\product.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\product\\product.component.ts",
+              "ViewState": "AQIAAFMAAACAZmZmZmYkwGQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-04T11:51:14.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "token.interceptor.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\interceptors\\token.interceptor.ts",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAswBoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-02T01:54:50.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AngularProject.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:51:56.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\login\\login.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\login\\login.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\login\\login.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\login\\login.component.ts",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-24T08:26:11.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "auth.guard.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\guards\\auth.guard.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\guards\\auth.guard.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\guards\\auth.guard.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\guards\\auth.guard.ts",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-01T13:30:57.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "order.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\order\\order.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\order\\order.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\order\\order.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\order\\order.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-05T08:40:23.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "navbar.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\navbar\\navbar.component.ts",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-01T15:20:46.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "signup.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\signup\\signup.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\signup\\signup.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\signup\\signup.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\signup\\signup.component.ts",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-28T10:24:41.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Program.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Program.cs",
+              "RelativeToolTip": "AngularProject.Server\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T10:55:43.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\Supplier.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\Supplier.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\Supplier.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\Supplier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:32:44.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ProductDTO.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\ProductDTO.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:32:45.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailBody.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Helpers\\EmailBody.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Helpers\\EmailBody.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Helpers\\EmailBody.cs",
+              "RelativeToolTip": "AngularProject.Server\\Helpers\\EmailBody.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T08:33:27.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "resetpw.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.html",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAC0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-04T12:18:37.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\RegisterDTO.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T08:47:11.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ResetPasswordDto.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\ResetPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T11:02:15.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "resetpw.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\resetpw\\resetpw.component.ts",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-04T12:12:38.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "user.service.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\user.service.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\services\\user.service.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\user.service.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\services\\user.service.ts",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAB8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-02T08:28:10.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "signup.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\signup\\signup.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\signup\\signup.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\signup\\signup.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\signup\\signup.component.html",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-03T07:53:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T07:12:41.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "confirm-password.validator.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\helpers\\confirm-password.validator.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-05T05:25:13.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "reset-password.model.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\models\\reset-password.model.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\models\\reset-password.model.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\models\\reset-password.model.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\models\\reset-password.model.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-04T11:44:42.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\UtilityService\\EmailService.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\UtilityService\\EmailService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\UtilityService\\EmailService.cs",
+              "RelativeToolTip": "AngularProject.Server\\UtilityService\\EmailService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:34:29.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-04T12:13:40.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\UtilityService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\UtilityService\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\UtilityService\\IEmailService.cs",
+              "RelativeToolTip": "AngularProject.Server\\UtilityService\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:32:44.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmailModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\EmailModel.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\EmailModel.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\EmailModel.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\EmailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T09:27:24.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "AngularProject.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\appsettings.json",
+              "RelativeToolTip": "AngularProject.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T09:35:57.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\app.component.ts",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-01T13:23:17.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "auth.service.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\auth.service.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\services\\auth.service.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\auth.service.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\services\\auth.service.ts",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T09:22:52.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\app.module.ts",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-02T02:12:35.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "login.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\login\\login.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\login\\login.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\login\\login.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\login\\login.component.html",
+              "ViewState": "AQIAAFoAAAAAAAAAAIBJwGoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-24T08:23:42.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-24T08:32:49.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "navbar.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\navbar\\navbar.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\navbar\\navbar.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\navbar\\navbar.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-02T09:52:53.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "dashboard.component.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "RelativeToolTip": "angularproject.client\\src\\app\\components\\dashboard\\dashboard.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-24T08:34:52.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "AngularProject.Server\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIBJwBIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T03:41:36.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\app.component.css",
+              "RelativeToolTip": "angularproject.client\\src\\app\\app.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-31T05:55:01.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\angular.json",
+              "RelativeDocumentMoniker": "angularproject.client\\angular.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\angular.json",
+              "RelativeToolTip": "angularproject.client\\angular.json",
+              "ViewState": "AQIAADUAAAAAAAAAAABhwAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T06:40:21.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\index.html",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\index.html",
+              "RelativeToolTip": "angularproject.client\\src\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-24T08:35:10.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "product.service.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\product.service.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\app\\services\\product.service.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\app\\services\\product.service.ts",
+              "RelativeToolTip": "angularproject.client\\src\\app\\services\\product.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T09:22:18.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\LoginDTO.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:10:51.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "angularproject.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\angularproject.client\\src\\main.ts",
+              "RelativeToolTip": "angularproject.client\\src\\main.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-28T09:49:24.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "AngularProject.Server\\Controllers\\SupplierController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAMBcwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T09:56:37.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "AngularProject.Server\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T04:07:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240824080151_SecondMigration.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824080151_SecondMigration.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Migrations\\20240824080151_SecondMigration.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824080151_SecondMigration.cs",
+              "RelativeToolTip": "AngularProject.Server\\Migrations\\20240824080151_SecondMigration.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:23:38.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20240824050846_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824050846_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Migrations\\20240824050846_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824050846_AddIdentityTables.cs",
+              "RelativeToolTip": "AngularProject.Server\\Migrations\\20240824050846_AddIdentityTables.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T07:21:01.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "20240824075133_Revert_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824075133_Revert_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Migrations\\20240824075133_Revert_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824075133_Revert_AddIdentityTables.cs",
+              "RelativeToolTip": "AngularProject.Server\\Migrations\\20240824075133_Revert_AddIdentityTables.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAMBcwAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:51:33.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20240824044023_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\AngularProject\\AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs",
+              "RelativeToolTip": "AngularProject.Server\\Migrations\\20240824044023_AddIdentityTables.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T04:40:23.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
